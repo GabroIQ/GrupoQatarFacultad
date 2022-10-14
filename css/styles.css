@@ -47,15 +47,17 @@
 }
 .nav-item p{
     position: absolute;
-    bottom: -45px;
-    right: -12px;
+    bottom: -38px;
+    right: -8px;
     background-color: tomato;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 50px;
     padding: 0.5rem;
-    text-align: center;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cart{
     background-color: #fff;
@@ -83,8 +85,6 @@
         width: 25px;
         top: -15px;
         right: 10px;
-        display: flex;
-        align-items: center;
         z-index: 165;
     }
 }
