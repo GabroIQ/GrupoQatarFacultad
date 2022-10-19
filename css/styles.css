@@ -71,6 +71,29 @@
     color: #000;
     font-weight: 700;
 }
+
+.modal-container{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    opacity: 0;
+}
+.show{
+    pointer-events:auto;
+    opacity:1;
+    position: fixed;
+    height: 3.5rem;
+    padding: 0 1rem;
+    bottom: 30px;
+    right: 30px;
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 25px;
+    box-shadow:2px 5px 15px rgba(0, 0, 0, .4);
+    color: #198754;
+    font-weight: 700;
+}
+
 @media (max-width: 480px) {
     .cart{
         position: fixed;
