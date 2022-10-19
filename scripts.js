@@ -5,6 +5,7 @@ const modal_container = document.getElementById('modal-container');
 
 open.addEventListener ('click', () => {
     modal_container.classList.add('show');
+    console.log("asd")
     setTimeout(function() {
         modal_container.classList.remove('show')
     }, 3000)
